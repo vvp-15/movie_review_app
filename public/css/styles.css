@@ -1,0 +1,82 @@
+body {
+    color: #444444;
+    font-family: arial;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 140vh;
+    background-image:url('../img/background.jpg');
+}
+
+.main-content {
+    flex-grow: 1;
+}
+footer {
+    color: #444444;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: #888888;
+}
+
+h1 {
+    font-size: 8vw;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+}
+
+ a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.portrait {
+    width: 250px;
+}
+form{
+    opacity: 0.8;
+    margin-bottom:20px; 
+    text-align: center;
+}
+input{
+    padding:5px;
+    height: 28px;
+    font-size: 12pt;
+    width: 280px;
+    border: 1px solid #cccccc;
+    
+}
+img{
+    clear: both;
+}
+button{
+    padding: 5px;
+    height: 3.1em;
+    width: 6em;
+    margin-left: 5px;
+    cursor: pointer;
+    color:white;
+    border:1px solid #888888;
+    background : #0e0606;
+}
+.writing{
+    color :#888888;
+    padding-left: 140px;
+}
+#message-1{
+    color :#888888;
+    text-align: center;
+    padding-top: 20px;
+
+}
