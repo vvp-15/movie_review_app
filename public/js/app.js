@@ -34,6 +34,17 @@ movieForm.addEventListener('submit',(e) => {
             //console.log(data)
             messageOne.textContent=data.Error
             messageTwo.textContent=''
+            message3.textContent=''
+            message7.textContent=''
+            message6.textContent=''
+            message4.textContent=''
+            message5.textContent=''
+            message8.textContent=''
+            message10.textContent=''
+            message9.textContent=''
+            message11.textContent=''
+            message12.textContent=''
+            message13.textContent=''
         }
         else{
             // console.log(data.location)
