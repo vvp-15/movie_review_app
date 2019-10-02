@@ -8,7 +8,7 @@ $(document).ready(() =>{
 
 function getMovies(searchText){
     // console.log(searchText)
-    axios.get('http://www.omdbapi.com?s='+searchText+'&apikey=bf1981b0')
+    axios.get('https://www.omdbapi.com?s='+searchText+'&apikey=bf1981b0')
          .then((res) => {
              console.log(res)
             const movies= res.data.Search;
@@ -53,7 +53,7 @@ function movieSelected(id){
 function getMovie(){
     let movieId = sessionStorage.getItem('movieId')
     console.log()
-    axios.get('http://www.omdbapi.com?i='+movieId+'&apikey=bf1981b0')
+    axios.get('https://www.omdbapi.com?i='+movieId+'&apikey=bf1981b0')
     .then((res) => {
        //console.log(res)
        let movie = res.data;
@@ -81,7 +81,7 @@ function getMovie(){
            <h3>Plot</h3>
            ${movie.Plot}
            <hr>
-           <a href="http://imdb.com/title/${movie.imdbID}"  target="_blank" class="btn btn-primary">View IMDB</a>
+           <a href="https://imdb.com/title/${movie.imdbID}"  target="_blank" class="btn btn-primary">View IMDB</a>
            <a href="index.html" class="btn btn-info">Go Back To Search</a>
        `;
        $('#movie').html(output)
